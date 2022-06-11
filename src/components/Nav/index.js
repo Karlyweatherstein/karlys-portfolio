@@ -5,6 +5,7 @@ function Nav() {
 
     return (
         <nav>
+            <h1>Karly Weatherstein</h1>
             <ul>
                 <li>About Me</li>
                 <li>Portfolio</li>

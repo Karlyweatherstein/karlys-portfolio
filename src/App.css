@@ -1,19 +1,41 @@
 * {
-  background-color: black;
+  background-color: #242734;
 }
+
+/* color for selected tab #73cca8 */
+
 /* Nav bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #515e65;
+}
+
+nav h1 {
+  padding-left: 8px;
+  margin-left: 8px;
+  background-color: #515e65;
+}
+
 nav ul {
-  color: white;
+  color: #b3beb3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
   list-style: none;
+  background-color: #515e65;
+  margin-right: 10px;
+}
+
+nav ul li {
+  padding: 8px;
+  background-color: #515e65;
 }
 
 nav ul li:hover {
-  background: lightgray;
-  color: black;
+  background: #4ec5a0;
+  color: #242734;
   border-radius: 15px;
   padding: 4px;
 }
@@ -22,31 +44,35 @@ nav ul li:hover {
 
 .heroDiv {
   display: flex;
-  padding: 30px 60px;
-  text-align: center;
+  padding: 30px;
+  align-items: center;
+}
+
+.heroText h1 {
+  background-color: #b3beb3;
+  color: #242734;
+  padding: 8px;
 }
 
 .heroText {
-  padding: auto;
-  text-align: right;
-  margin-right: 8px;
-  width: 60%;
+  text-align: left;
+  width: 50%;
+  margin-right: 80px;
+  padding-right: 30px;
 }
 
 .profilePic {
-  padding: 0;
-  text-align: left;
+  text-align: right;
+  width: 50%;
 }
 
 .profilePic img {
-  width: 40%;
-  border-radius: 50px;
-  margin-left: 8px;
+  width: 60%;
 }
 
 .App {
   text-align: center;
-  color: white;
+  color: #b3beb3;
 }
 
 .App-logo {
@@ -55,7 +81,7 @@ nav ul li:hover {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #242734;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -67,4 +93,27 @@ nav ul li:hover {
 
 .App-link {
   color: #61dafb;
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .heroDiv {
+    display: inline-block;
+    margin: 0;
+    align-items: center;
+  }
+
+  .heroText {
+    text-align: center;
+    align-items: center;
+  }
+
+  .profilePic {
+    text-align: center;
+  }
+
+  nav {
+    display: inline-block;
+    width: 100%;
+  }
 }
