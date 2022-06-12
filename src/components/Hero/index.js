@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from "../../assets/avatar.png"
+import Avatar from "../../assets/avatar.png"
 
 function Hero() {
 
@@ -8,7 +8,7 @@ function Hero() {
 
             <div className='profilePic'>
                 <img 
-                src={profile}
+                src={Avatar}
                 alt='profile' 
                 key="1"
                 />
