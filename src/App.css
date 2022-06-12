@@ -1,8 +1,13 @@
 * {
   background-color: #242734;
+  position: relative;
 }
 
-/* color for selected tab #73cca8 */
+.titles {
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 /* Nav bar */
 nav {
@@ -33,7 +38,17 @@ nav ul li {
   background-color: #515e65;
 }
 
-nav ul li:hover {
+nav ul li a,
+nav ul li span {
+  padding: 8px;
+  background-color: #515e65;
+  text-decoration: none;
+  color: #b3beb3;
+}
+
+nav ul li:hover,
+nav ul li a:hover,
+nav ul li span:hover {
   background: #4ec5a0;
   color: #242734;
   border-radius: 15px;
@@ -52,6 +67,8 @@ nav ul li:hover {
   background-color: #b3beb3;
   color: #242734;
   padding: 8px;
+  line-height: 35px;
+  width: fit-content;
 }
 
 .heroText {
@@ -59,6 +76,7 @@ nav ul li:hover {
   width: 50%;
   margin-right: 80px;
   padding-right: 30px;
+  line-height: 22px;
 }
 
 .profilePic {
@@ -71,6 +89,7 @@ nav ul li:hover {
 }
 
 /* About */
+
 .about-div {
   display: flex;
   margin: 30px;
@@ -86,21 +105,77 @@ nav ul li:hover {
   text-align: left;
   width: 50%;
   padding: 15px;
+  line-height: 32px;
+}
+
+/* Resume */
+.resume {
+  margin: 20px;
+}
+
+.resume a {
+  color: #242734;
+  text-decoration: none;
+  padding: 0;
+}
+
+.resume a h2 {
+  background-color: #4ec5a0;
+  width: fit-content;
+  padding: 10px;
+}
+
+/* Portfolio */
+.portfolio {
+  display: flex;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.portfolio-mock {
+  text-align: right;
+}
+
+.portfolio-mock img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio div {
+  width: 50%;
+  margin: 20 30px;
+  padding: 20px;
+}
+
+.portfolio img {
+  width: 80%;
+}
+
+.icon h2 {
+  background-color: #b3beb3;
+  width: fit-content;
+  color: #242734;
+  padding: 8px;
+}
+
+.icon img {
+  width: 50px;
 }
 
 /* Footer */
 
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #515e65;
+  display: block;
 }
 
 footer ul {
   display: flex;
   justify-content: space-around;
   background-color: #515e65;
+  margin: 0;
 }
 
 footer ul li {
@@ -119,7 +194,6 @@ footer ul li a img {
 }
 
 .App {
-  text-align: center;
   color: #b3beb3;
 }
 
@@ -129,36 +203,84 @@ footer ul li a img {
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  /* Hero */
   .heroDiv {
     display: inline-block;
-    margin: 0;
     align-items: center;
+    margin: auto;
   }
 
   .heroText {
     text-align: center;
     align-items: center;
-  }
-
-  .heroText h1 {
-    padding: 6px;
+    width: 100%;
   }
 
   .profilePic {
     text-align: center;
+    width: 100%;
   }
 
+  /* Nav */
   nav {
     display: inline-block;
     width: 100%;
   }
 
+  nav h1 {
+    text-align: center;
+  }
+
+  /* Footer */
   footer {
     height: 10%;
     width: 100%;
     margin: 2px;
     background-color: #515e65;
-    position: fixed;
-    bottom: 0;
+  }
+
+  /* Portfolio */
+  .portfolio {
+    display: inline-block;
+    align-items: center;
+  }
+
+  .portfolio-mock {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .icon {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .icon h2 {
+    width: 100%;
+  }
+
+  .titles {
+    font-size: 40px;
+  }
+
+  /* About */
+  .about-div {
+    display: inline-block;
+    margin: auto;
+  }
+
+  .about-div img {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+    width: 90%;
+    margin: 14px;
+    padding: 6px;
   }
 }

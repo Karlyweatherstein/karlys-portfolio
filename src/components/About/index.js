@@ -5,7 +5,7 @@ import Profile from "../../assets/profile.jpg"
 function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <h1 className="titles">About Me</h1>
       <div className='about-div'> 
           <img className='profilePic'
                 src={Profile}

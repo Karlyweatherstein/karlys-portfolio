@@ -1,11 +1,114 @@
 import React from 'react';
+import RunBuddy from "../../assets/portfolio-mockups/run-buddy.jpg"
+import Github from '../../assets/github-icon.png'
+import ShowMeHow from '../../assets/portfolio-mockups/showMeHow-mockup.jpg'
+import PasswordGenerator from '../../assets/portfolio-mockups/password-mockup.png'
+import BestFurrend from '../../assets/portfolio-mockups/best-furrends-mockup.jpg'
+import Horiseon from '../../assets/portfolio-mockups/horiseon.jpg'
+import WeatherDashboard from '../../assets/portfolio-mockups/weather-dashboard.jpg'
+
+
+
 
 function Portfolio() {
 
 
     return (
         <div>
-            
+            <h1 className='titles'>
+                Portfolio
+            </h1>
+            {/* Run Buddy */}
+            <div className='portfolio'>
+                <div className='portfolio-mock'>
+                    <a href='https://karlyweatherstein.github.io/run-buddy/'>
+                        <img alt="Run-Buddy" src={RunBuddy}></img>
+                    </a>
+                </div>
+                <div className='icon' >
+                    <h2>Run Buddy</h2>
+                    <a href='https://github.com/Karlyweatherstein/run-buddy'>
+                    <img src={Github} alt='Github' ></img>
+                    </a>
+                    <p>Tools: HTML, CSS</p>
+                </div>
+            </div>
+            {/* Show Me How */}
+            <div className='portfolio'>
+                <div className='portfolio-mock'>
+                    <a href='https://boiling-fjord-93274.herokuapp.com/'>
+                        <img alt="Show-Me-How" src={ShowMeHow}></img>
+                    </a>
+                </div>
+                <div className='icon' >
+                    <h2>Show Me How</h2>
+                    <a href='https://github.com/jamesbelk0/Show-Me-How'>
+                    <img src={Github} alt='Github' ></img>
+                    </a>
+                    <p>Tools: Javascript, Handlebars, Express, MongoDB</p>
+                </div>
+            </div>
+            {/* Password Generator */}
+            <div className='portfolio'>
+                <div className='portfolio-mock'>
+                    <a href='https://karlyweatherstein.github.io/password-generator/'>
+                        <img alt="Password-Generator" src={PasswordGenerator}></img>
+                    </a>
+                </div>
+                <div className='icon' >
+                    <h2>Password Generator</h2>
+                    <a href='https://github.com/Karlyweatherstein/password-generator'>
+                    <img src={Github} alt='Github' ></img>
+                    </a>
+                    <p>Tools: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            {/* Best Furrrends */}
+            <div className='portfolio'>
+                <div className='portfolio-mock'>
+                    <a href='https://karlyweatherstein.github.io/best-furrends/'>
+                        <img alt="best-furrends" src={BestFurrend}></img>
+                    </a>
+                </div>
+                <div className='icon' >
+                    <h2>Best Furrends</h2>
+                    <a href='https://github.com/Karlyweatherstein/best-furrends'>
+                    <img src={Github} alt='Github' ></img>
+                    </a>
+                    <p>Tools: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            {/* Horiseon */}
+            <div className='portfolio'>
+                <div className='portfolio-mock'>
+                    <a href='https://karlyweatherstein.github.io/horiseon/'>
+                        <img alt="Horiseon" src={Horiseon}></img>
+                    </a>
+                </div>
+                <div className='icon' >
+                    <h2>Horiseon</h2>
+                    <a href='https://github.com/Karlyweatherstein/horiseon'>
+                    <img src={Github} alt='Github' ></img>
+                    </a>
+                    <p>Tools: HTML, CSS, Javascript</p>
+                </div>
+            </div>
+            {/* Weather Dashboard */}
+            <div className='portfolio'>
+                <div className='portfolio-mock'>
+                    <a href='https://karlyweatherstein.github.io/weather-dashboard/'>
+                        <img alt="Weather-dashboard" src={WeatherDashboard}></img>
+                    </a>
+                </div>
+                <div className='icon' >
+                    <h2>Weather Dashboard</h2>
+                    <a href='https://github.com/Karlyweatherstein/weather-dashboard/'>
+                    <img src={Github} alt='Github' ></img>
+                    </a>
+                    <p>Tools: HTML, CSS, Javascript, Rest API</p>
+                </div>
+            </div>
+
         </div>
     )
 
@@ -15,63 +118,3 @@ function Portfolio() {
 
 export default Portfolio;
 
-// <section id="work">
-//       <div class="class-work">
-//         <h2>Work</h2>
-
-//         <div class="run-buddy">
-//           <a href="https://karlyweatherstein.github.io/run-buddy/">
-//             <img alt="Run-Buddy" src="./assets/images/run-buddy.jpg">
-//           <div class="run-buddy-text">
-//             <h3>Run Buddy</h3>
-//             <p>HTML/CSS</p>
-//            </div>  
-//         </div>
-       
-//         <div class="extra-work">
-//           <div class="horiseon images">
-//             <a href="https://karlyweatherstein.github.io/horiseon/">
-//               <img alt="Horiseon" src="./assets/images/horiseon.jpg"
-//               width="400" height="auto">
-//               <div class="work-textbox">
-//                 <h3>Horiseon</h3>
-//                 <p>HTML/CSS</p>
-//               </div>
-            
-//           </div>
-
-//           <div class="honeycomb images">
-//             <a href="https://karlyweatherstein.github.io/best-furrends/">
-//               <img alt="Honeycomb" src="./assets/images/best-furrends-mockup.jpg"
-//               width="400" height="auto">
-//               <div class="work-textbox">
-//                 <h3>Best Furrends</h3>
-//                 <p>HTML/CSS/Javascript</p>
-//               </div>
-            
-//           </div>
-
-//           <div class="coding images">
-//             <a href="https://github.com/jamesbelk0/Show-Me-How">
-//               <img alt="coding" src="./assets/images/showMeHow-mockup.jpg"
-//               width="400" height="auto">
-//               <div class="work-textbox">
-//                 <h3>Show Me How</h3>
-//                 <p>Node/SQL</p>
-//               </div>
-            
-//           </div>
-
-//           <div class="calculator images">
-//             <a href="https://karlyweatherstein.github.io/">
-//               <img alt="calculator" src="./assets/images/Calculator.jpg"
-//               width="400" height="auto">
-//               <div class="work-textbox">
-//                 <h3>Calculator</h3>
-//                 <p>MERN stack</p>
-//               </div>
-            
-//           </div>
-//         </div>
-//       </div>
-//     </section>
