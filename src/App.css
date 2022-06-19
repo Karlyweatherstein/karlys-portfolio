@@ -15,6 +15,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #515e65;
+  width: 100%;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 nav h1 {
@@ -52,7 +55,12 @@ nav ul li span:hover {
   background: #4ec5a0;
   color: #242734;
   border-radius: 15px;
-  padding: 4px;
+}
+
+.active {
+  background: #4ec5a0;
+  color: #242734;
+  border-radius: 15px;
 }
 
 /* Hero */
@@ -106,6 +114,7 @@ nav ul li span:hover {
   width: 50%;
   padding: 15px;
   line-height: 32px;
+  color: #7c8e97;
 }
 
 /* Resume */
@@ -169,6 +178,7 @@ footer {
   width: 100%;
   background-color: #515e65;
   display: block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 footer ul {
@@ -195,10 +205,6 @@ footer ul li a img {
 
 .App {
   color: #b3beb3;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
