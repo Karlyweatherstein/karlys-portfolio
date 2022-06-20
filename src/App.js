@@ -11,8 +11,6 @@ import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 function App() {
-  // const [contactSelected, setContactSelected] = useState(false);
-
   return (
     <Router>
       <div className="App">

@@ -57,10 +57,16 @@ nav ul li span:hover {
   border-radius: 15px;
 }
 
-.active {
+/* active tab - selected */
+.tab-active {
   background: #4ec5a0;
   color: #242734;
   border-radius: 15px;
+}
+
+/* Not selected */
+.tab {
+  color: #b3beb3;
 }
 
 /* Hero */
