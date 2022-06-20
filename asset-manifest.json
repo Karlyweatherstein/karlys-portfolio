@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/photo-port/static/css/main.42177bf0.css",
+    "main.js": "/photo-port/static/js/main.02367526.js",
+    "static/js/787.0d01910c.chunk.js": "/photo-port/static/js/787.0d01910c.chunk.js",
+    "static/media/horiseon.jpg": "/photo-port/static/media/horiseon.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/best-furrends-mockup.jpg": "/photo-port/static/media/best-furrends-mockup.2a87914ae8eb7092a8e1.jpg",
+    "static/media/profile.jpg": "/photo-port/static/media/profile.36878c360765482cdcfe.jpg",
+    "static/media/email-icon.png": "/photo-port/static/media/email-icon.21af017e73eef9be46f1.png",
+    "static/media/avatar.png": "/photo-port/static/media/avatar.ffbd74cad1abd057ec13.png",
+    "static/media/github-icon.png": "/photo-port/static/media/github-icon.01091bbed0a32c90daf4.png",
+    "static/media/linkedin-icon.png": "/photo-port/static/media/linkedin-icon.3b8d36bb28d2e7bbcb50.png",
+    "static/media/showMeHow-mockup.jpg": "/photo-port/static/media/showMeHow-mockup.7490103bdf6f932f3966.jpg",
+    "static/media/weather-dashboard.jpg": "/photo-port/static/media/weather-dashboard.f5a16539a4bf3cd23a93.jpg",
+    "static/media/run-buddy.jpg": "/photo-port/static/media/run-buddy.463b4a042c0a230b8a1b.jpg",
+    "static/media/password-mockup.png": "/photo-port/static/media/password-mockup.aa25cbf89939def02f6b.png",
+    "index.html": "/photo-port/index.html",
+    "main.42177bf0.css.map": "/photo-port/static/css/main.42177bf0.css.map",
+    "main.02367526.js.map": "/photo-port/static/js/main.02367526.js.map",
+    "787.0d01910c.chunk.js.map": "/photo-port/static/js/787.0d01910c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42177bf0.css",
+    "static/js/main.02367526.js"
+  ]
+}
