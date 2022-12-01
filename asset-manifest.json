@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/karlys-portfolio/static/css/main.42177bf0.css",
-    "main.js": "/karlys-portfolio/static/js/main.79e60012.js",
-    "static/js/787.0d01910c.chunk.js": "/karlys-portfolio/static/js/787.0d01910c.chunk.js",
-    "static/media/horiseon.jpg": "/karlys-portfolio/static/media/horiseon.c672fcf0b6bd0c33ff16.jpg",
-    "static/media/best-furrends-mockup.jpg": "/karlys-portfolio/static/media/best-furrends-mockup.2a87914ae8eb7092a8e1.jpg",
-    "static/media/profile.jpg": "/karlys-portfolio/static/media/profile.36878c360765482cdcfe.jpg",
-    "static/media/email-icon.png": "/karlys-portfolio/static/media/email-icon.21af017e73eef9be46f1.png",
-    "static/media/avatar.png": "/karlys-portfolio/static/media/avatar.ffbd74cad1abd057ec13.png",
-    "static/media/github-icon.png": "/karlys-portfolio/static/media/github-icon.01091bbed0a32c90daf4.png",
-    "static/media/linkedin-icon.png": "/karlys-portfolio/static/media/linkedin-icon.3b8d36bb28d2e7bbcb50.png",
-    "static/media/showMeHow-mockup.jpg": "/karlys-portfolio/static/media/showMeHow-mockup.7490103bdf6f932f3966.jpg",
-    "static/media/weather-dashboard.jpg": "/karlys-portfolio/static/media/weather-dashboard.f5a16539a4bf3cd23a93.jpg",
-    "static/media/run-buddy.jpg": "/karlys-portfolio/static/media/run-buddy.463b4a042c0a230b8a1b.jpg",
-    "static/media/password-mockup.png": "/karlys-portfolio/static/media/password-mockup.aa25cbf89939def02f6b.png",
-    "index.html": "/karlys-portfolio/index.html",
-    "main.42177bf0.css.map": "/karlys-portfolio/static/css/main.42177bf0.css.map",
-    "main.79e60012.js.map": "/karlys-portfolio/static/js/main.79e60012.js.map",
-    "787.0d01910c.chunk.js.map": "/karlys-portfolio/static/js/787.0d01910c.chunk.js.map"
+    "main.css": "/Karlyweatherstein/karlys_website/static/css/main.42177bf0.css",
+    "main.js": "/Karlyweatherstein/karlys_website/static/js/main.fda33fb6.js",
+    "static/js/787.0d01910c.chunk.js": "/Karlyweatherstein/karlys_website/static/js/787.0d01910c.chunk.js",
+    "static/media/horiseon.jpg": "/Karlyweatherstein/karlys_website/static/media/horiseon.c672fcf0b6bd0c33ff16.jpg",
+    "static/media/best-furrends-mockup.jpg": "/Karlyweatherstein/karlys_website/static/media/best-furrends-mockup.2a87914ae8eb7092a8e1.jpg",
+    "static/media/profile.jpg": "/Karlyweatherstein/karlys_website/static/media/profile.36878c360765482cdcfe.jpg",
+    "static/media/email-icon.png": "/Karlyweatherstein/karlys_website/static/media/email-icon.21af017e73eef9be46f1.png",
+    "static/media/avatar.png": "/Karlyweatherstein/karlys_website/static/media/avatar.ffbd74cad1abd057ec13.png",
+    "static/media/github-icon.png": "/Karlyweatherstein/karlys_website/static/media/github-icon.01091bbed0a32c90daf4.png",
+    "static/media/linkedin-icon.png": "/Karlyweatherstein/karlys_website/static/media/linkedin-icon.3b8d36bb28d2e7bbcb50.png",
+    "static/media/showMeHow-mockup.jpg": "/Karlyweatherstein/karlys_website/static/media/showMeHow-mockup.7490103bdf6f932f3966.jpg",
+    "static/media/weather-dashboard.jpg": "/Karlyweatherstein/karlys_website/static/media/weather-dashboard.f5a16539a4bf3cd23a93.jpg",
+    "static/media/run-buddy.jpg": "/Karlyweatherstein/karlys_website/static/media/run-buddy.463b4a042c0a230b8a1b.jpg",
+    "static/media/password-mockup.png": "/Karlyweatherstein/karlys_website/static/media/password-mockup.aa25cbf89939def02f6b.png",
+    "index.html": "/Karlyweatherstein/karlys_website/index.html",
+    "main.42177bf0.css.map": "/Karlyweatherstein/karlys_website/static/css/main.42177bf0.css.map",
+    "main.fda33fb6.js.map": "/Karlyweatherstein/karlys_website/static/js/main.fda33fb6.js.map",
+    "787.0d01910c.chunk.js.map": "/Karlyweatherstein/karlys_website/static/js/787.0d01910c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42177bf0.css",
-    "static/js/main.79e60012.js"
+    "static/js/main.fda33fb6.js"
   ]
 }
